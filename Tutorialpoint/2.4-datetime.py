@@ -16,5 +16,5 @@ localtime = time.asctime(time.localtime(time.time()))
 print("Local current time :", localtime)
 
 cal = calendar.month(2008, 11)
-print("Here is the calendar:")
+print("Here is the calendar: ")
 print(cal)
