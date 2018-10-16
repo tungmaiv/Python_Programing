@@ -8,7 +8,7 @@ print(sys.version)
 for i in range(5):
     print(random.random())
 
-for num in [1, 2, 3, 4]:
+for num in [1, 2, 3, 4, 5]:
     print(num)
 
 a = b = c = 1
