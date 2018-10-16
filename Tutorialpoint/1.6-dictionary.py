@@ -14,6 +14,6 @@ print(dict[2])           # Prints value for 2 key
 print(tinydict)          # Prints complete dictionary
 print(tinydict.keys())   # Prints all the keys
 print(tinydict.values())  # Prints all the values
-tinydict['name'] = 'tungvm'
+tinydict['name'] = 'tungmaiv'
 print(tinydict['name'])
 # print(tinydict.values(2))

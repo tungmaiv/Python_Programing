@@ -2,8 +2,8 @@ import sys
 print(sys.executable)
 print(sys.version)
 
-a = 20
-b = 10
+a = 200
+b = 100
 
 print("\n")
 print(a + b)
