@@ -5,6 +5,7 @@ import random
 print(sys.executable)
 print(sys.version)
 
+
 for i in range(5):
     print(random.random())
 
@@ -17,3 +18,4 @@ print(b)
 a = b + c
 print(a)
 print(b)
+# add new line for test
