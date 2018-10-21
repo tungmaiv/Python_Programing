@@ -38,7 +38,3 @@ print (tuples [1:3])
 dict = {}
 dict ["8"] = "eight"
 dict ["zero"] = "0"
-pocketdict = ["banana" : "yellow","bike's lock code" : 237,"programming" : "easy"]
-print (dict ["8"])
-print (dict ["zero"])
-print (pocketdict.keys)
