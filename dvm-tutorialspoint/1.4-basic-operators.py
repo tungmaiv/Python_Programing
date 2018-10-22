@@ -26,6 +26,11 @@ print ("Value of c is ", c)
 c -= b
 print ("Value of c is ", c)
 
+print (a | b)
+print (a & b )
+print (a << b)
+print (a >> b )
+
 print (x is y)
 print (y is not z)
 
