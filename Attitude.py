@@ -12,7 +12,6 @@ for letter in itl.upper():
 for letter in klg.upper():
     total_klg += ord(letter)
 
-print("Hello")
 print("Total of Attitude is: {}".format(total_att/len(att)))
 print("Total of Intelligent is: {}".format(total_itl/len(itl)))
 print("Total of Knowledge is: {}".format(total_klg/len(klg)))
