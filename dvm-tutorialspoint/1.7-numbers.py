@@ -23,7 +23,7 @@ print("abs(" + str(z) + ") = " + str(abs(z)))
 print("fabs(" + str(z) + ") = " + str(math.fabs(z)))
 print("math.ceil(" + str(z) + ") = " + str(math.ceil(z)))
 print("math.floor(" + str(z) + ") = " + str(math.floor(m)))
-print("math.log(" + str(100) + ") = " + str(math.log(m,)))
+print("math.log( ," str(100) + ") = " str(math.log(m,)",)
 
 name = "Jeff"
 weight = 68
