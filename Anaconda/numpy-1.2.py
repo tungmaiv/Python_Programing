@@ -1,0 +1,10 @@
+import numpy as np 
+second_arr = np.arange(16)
+print(second_arr)
+print(second_arr -1)
+print(second_arr * second_arr)
+print(second_arr + second_arr)
+print(second_arr - second_arr)
+print(second_arr**2)
+print(second_arr**0.5)
+print(1/second_arr)
