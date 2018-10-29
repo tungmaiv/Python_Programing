@@ -12,3 +12,18 @@ j # diagrammatic explanation of matrix array slicing works.
 
 personals = np.array(['Manu', 'Jeevan', 'Prakash', 'Manu', 'Prakash', 'Jeevan', 'Prakash'])
 print(personals == 'Manu')
+
+from numpy import random
+random_no = random.rand(7,4)
+print (random_no)
+print("-----------------------------------")
+print(random_no[personals == "Manu"])
+print("-----------------------------------")
+print(random_no[personals == "Manu",2:])
+print("-----------------------------------")
+print(random_no[personals != "Manu"])
+print("-----------------------------------")
+new_var = (personals == "Manu") | (personals =="Jeevan")
+print(new_var)
+print(random_no[new_var])
+
