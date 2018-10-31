@@ -26,4 +26,9 @@ print("-----------------------------------")
 new_var = (personals == "Manu") | (personals =="Jeevan")
 print(new_var)
 print(random_no[new_var])
-
+print("-----------------------------------")
+random_no[random_no < 0.4] =0
+print(random_no)
+print("-----------------------------------")
+random_no[ personals != 'Manu'] = 9 # This will set all rows except 1 and 4 to 9. 
+print(random_no)
